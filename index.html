@@ -1,31 +1,14 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>MiniBlog</title>
-    <link rel="stylesheet" href="style.css">
-</head>
 
-<body>
+<html> <head>     <title>MicroBlog Application</title>     <link rel="stylesheet" href="style.css"> </head> <body>
 
-    <div class="container">
+<div class="header">
+    <h2>MicroBlog</h2>
+    <div id="navbar"></div>
+</div>
 
-        <h1>🌟 MiniBlog</h1>
-        <p class="subtitle">Share your thoughts with friends</p>
+<div class="container" id="app"></div>
 
-        <input type="text" id="username" placeholder="Enter your name">
+<script src="script.js"></script>
 
-        <textarea id="postText"
-            placeholder="What are you thinking?"></textarea>
-
-        <button onclick="addPost()">Post</button>
-
-        <h2>Recent Posts</h2>
-
-        <div id="posts"></div>
-
-    </div>
-
-    <script src="script.js"></script>
-
-</body>
-</html>
+</body> </html>
